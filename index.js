@@ -1,3 +1,5 @@
-const fs = require('fs');
-const rimraf = require('rimraf');
-const inquirer = require('inquirer');
+#!/usr/bin/env node
+
+require('./container')
+    .build('cleaner')
+    .clean();
